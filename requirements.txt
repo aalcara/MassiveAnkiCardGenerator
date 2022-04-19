@@ -1,0 +1,4 @@
+genanki
+PyDictionary
+gTTS
+googletrans
