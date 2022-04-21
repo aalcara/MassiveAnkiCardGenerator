@@ -1,8 +1,8 @@
 # MassiveAnkiCardGenerator
 
-Application to turn an list of words and phrases in Anki Cards.
+Application to turn a list of words and phrases in Anki Cards.
 
-I made this to avoid the painful job of clipping and pasting meaning and translation of the words/sentences that I want to memorize, because I know that I will forgot the that meaning ir i don't review it soon.
+I made this to avoid the painful job of clipping and pasting meaning and translation of the words/sentences that I want to memorize, because I know that I will forgot the that meaning if I don't review it soon.
 
 The program will get automatically:
 - the meaning of the word;
@@ -17,7 +17,7 @@ Until now, I have to put in each line of the file `input.csv` the word and the p
 
 ```
 word;phrase with the word
-example;this is an example
+example;this is a example
 lorem;lorem ipsum
 bigger example;this is an bigger example
 ```
