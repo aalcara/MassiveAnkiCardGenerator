@@ -33,6 +33,6 @@ For the words that for some reason can't be created the card will be added to `e
 
 ## To Do
 
-[] handle idioms or slangs that can't be find in PyDictionary
-[] Create an config file to choose another type of card
-[] accept another template of input file, based on config file
+- [ ] handle idioms or slangs that can't be find in PyDictionary
+- [ ] Create an config file to choose another type of card
+- [ ] accept another template of input file, based on config file
