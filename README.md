@@ -17,9 +17,9 @@ Until now, I have to put in each line of the file `input.csv` the word and the p
 
 ```
 word;phrase with the word
-example;this is a example
+example;this is an example
 lorem;lorem ipsum
-bigger example;this is an bigger example
+bigger example;this is a bigger example
 ```
 
 Then run:
@@ -34,5 +34,5 @@ For the words that for some reason can't be created the card will be added to `e
 ## To Do
 
 - [ ] handle idioms or slangs that can't be find in PyDictionary
-- [ ] Create an config file to choose another type of card
+- [ ] Create a config file to choose another type of card
 - [ ] accept another template of input file, based on config file
