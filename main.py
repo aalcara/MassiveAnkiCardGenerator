@@ -14,7 +14,7 @@ if __name__ == "__main__":
 
   for line in file:
     try:
-      splitted = line.split("\t")
+      splitted = line.split(";")
       word = splitted[0]
       sentence = splitted[1].strip("\n")
       meaning = en_dictionary.get_meaning(word)
