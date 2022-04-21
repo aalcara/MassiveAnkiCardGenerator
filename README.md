@@ -1,6 +1,6 @@
 # MassiveAnkiCardGenerator
 
-Application to turn a list of content in Anki Cards.
+Application to turn a list of words and phrases in Anki Cards.
 
 I made this to avoid the painful job of clipping and pasting meaning and translation of the words/sentences that I want to memorize, because I know that I will forgot the that meaning ir i don't review it soon.
 
