@@ -26,7 +26,7 @@ if __name__ == "__main__":
       print(f"[{sentence}] added to deck")
     except:
       print(f"Could not find [{line}]")
-      errfile.write(line)
+      errfile.write(line + "\n")
 
     
   ga.save_file()

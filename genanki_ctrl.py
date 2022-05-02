@@ -4,8 +4,8 @@ class GeneratorAnki:
   
   def __init__(self):
     self.my_model = genanki.Model(
-      1607392319,
-      'Simple Model',
+      1607392320,
+      'AutoVocabulary',
       fields=[
         {'name': 'Question'},
         {'name': 'Answer'},
