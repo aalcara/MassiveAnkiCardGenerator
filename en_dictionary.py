@@ -10,5 +10,5 @@ def get_meaning(string):
     for item in meaning[word_class]:
       formated_meaning += (f"\t- {item}<br />")
     formated_meaning += ("<br />")
-  
-  return (formated_meaning) 
+
+  return (formated_meaning)
