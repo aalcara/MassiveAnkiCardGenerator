@@ -13,13 +13,13 @@ With this elements it will save the output in `output.apkg` file, that can be im
 
 ## How to use
 
-Until now, I have to put in each line of the file `input.csv` the word and the phrase (that must contain the word), separated by an `;` character, as follow:
+Until now, I have to put in each line of the file `input.csv` the word and the phrase (that must contain the word), separated by an `|||` string, as follow:
 
 ```
-word;phrase with the word
-example;this is an example
-lorem;lorem ipsum
-bigger example;this is a bigger example
+word|||phrase with the word
+example|||this is an example
+lorem|||lorem ipsum
+bigger example|||this is a bigger example
 ```
 
 Then run:
