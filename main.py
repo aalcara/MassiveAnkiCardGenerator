@@ -28,7 +28,7 @@ if __name__ == "__main__":
       print(f"OK! [{word} ||| {sentence}]")
     except Exception as e:
       print("FAIL! [" + line.strip('\n') + "] ")
-      print(e)
+      # print(e)
       errfile.write(line + "\n")
 
   ga.save_file()
