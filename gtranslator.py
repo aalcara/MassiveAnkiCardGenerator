@@ -1,10 +1,9 @@
-from googletrans import Translator
+from deep_translator import GoogleTranslator
 
-def get_translation(name, string):
-  translator = Translator()
-  translation = translator.translate(string, src="en", dest="pt").text
-  word = translator.translate(name, src="en", dest="pt").text
-  if word in translation:
-    translation = translation.replace(word, f"<b>{word}</b>")
-  result = f"<p style='color: green;'>{translation}</p>"
-  return (result)
+def get_translation(string, lang="en"):
+  try:
+    translator = GoogleTranslator(source=lang, target='pt')
+    translation = translator.translate(string)
+    return translation
+  except Exception as e:
+    raise ValueError(f"Failed to get translation: {str(e)}")
